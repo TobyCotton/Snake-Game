@@ -1,0 +1,22 @@
+﻿  Collectable.cpp
+F:\C ++ Prorgamming\Updated SnakeGame\SnakeGame\Collectable.cpp(14,24): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+F:\C ++ Prorgamming\Updated SnakeGame\SnakeGame\Collectable.cpp(15,24): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  DeathScreen.cpp
+  Game.cpp
+F:\C ++ Prorgamming\Updated SnakeGame\SnakeGame\Game.cpp(160,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\C ++ Prorgamming\Updated SnakeGame\SnakeGame\Game.cpp(164,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\C ++ Prorgamming\Updated SnakeGame\SnakeGame\Game.cpp(170,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\C ++ Prorgamming\Updated SnakeGame\SnakeGame\Game.cpp(175,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  MainMenu.cpp
+  Snake.cpp
+  Generating Code...
+  SnakeGame.vcxproj -> F:\C ++ Prorgamming\Updated SnakeGame\x64\Debug\SnakeGame.exe
