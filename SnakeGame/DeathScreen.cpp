@@ -5,7 +5,7 @@
 void DeathScreen::Run(int TopScore)
 {
 	sf::RenderWindow window(sf::VideoMode(m_ScreenHeight, m_ScreenWidth), "C++ Snake ICA Main Menu: A0031189");
-	sf::Event event;
+	sf::Event event;//initialising variables
 	sf::Font arcade;
 	sf::Text Title;
 	sf::Text TopScoreTitle;
@@ -14,8 +14,8 @@ void DeathScreen::Run(int TopScore)
 	sf::Text Highscore;
 	sf::Text Exit;
 	int test{ 0 };
-	arcade.loadFromFile("PressStart2p-vaV7.ttf");
-	Title.setFont(arcade);
+	arcade.loadFromFile("PressStart2p-vaV7.ttf");//setting font type
+	Title.setFont(arcade);//updating variables values
 	Title.setString("Game Over");
 	Title.setCharacterSize(50);
 	Title.setPosition(160, 200);
@@ -25,8 +25,8 @@ void DeathScreen::Run(int TopScore)
 	TopScoreTitle.setCharacterSize(25);
 	TopScoreTitle.setPosition(300, 400);
 	TopScoreTitle.setFillColor(sf::Color::White);
-	std::ostringstream oss;
-	oss << TopScore;
+	std::ostringstream oss; // intialising variable to write to a file
+	oss << TopScore; // writing to a file
 	TopScoreNumber.setFont(arcade);
 	TopScoreNumber.setString(oss.str());
 	TopScoreNumber.setCharacterSize(25);
@@ -59,7 +59,7 @@ void DeathScreen::Run(int TopScore)
 
 	
 		window.clear(sf::Color::Black);
-		window.draw(Title);
+		window.draw(Title); // drawing buttons to screen
 		window.draw(TopScoreTitle);
 		window.draw(TopScoreNumber);
 		window.draw(Play);
