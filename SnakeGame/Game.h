@@ -10,7 +10,7 @@ class Game
 private:
 	int m_ScreenWidth{ 800 };
 	int m_ScreenHeight{ 800 };
-    std::vector<Snake*>m_snakes;
+        std::vector<Snake*>m_snakes;
 	std::vector<Collectable*> m_collectableVector;
 public:
 	void Run();
