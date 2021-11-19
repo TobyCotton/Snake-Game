@@ -3,9 +3,9 @@
 class Collectable
 {
 private:
-	bool m_alive{ false };
+	bool m_alive{ false }; // flag
 	int m_grow{rand() % 2 };
-	bool m_electric{false};
+	bool m_electric{false};// flag
 	sf::Vector2f m_pos{};
 public:
 	bool IsAlive() const { return m_alive; }
